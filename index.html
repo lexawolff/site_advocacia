@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advocacia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Escritório de Advocacia</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#escritorio" class="nav-link">
+                            O escritório
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#areas-atuacao" class="nav-link">
+                            Áreas de atuação
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smoth-scroll="true">
+        <section id="escritorio">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./img/slides/themis2.jpg" alt="justiça" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/slides/direito-digital1.jpg" alt="direito digital" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/slides/martelo1.jpg" alt="martelo do direito" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./img/lady-justice.jpg" alt="lay justice" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o escritorio</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, iusto. Quas animi aperiam a
+                                quasi incidunt perspiciatis repellat exercitationem ullam dolorum nemo? Temporibus
+                                fugiat repellat magnam minima quod magni tenetur?</p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eius nesciunt minus, quasi modi consequuntur est nulla corrupti quibusdam ipsa ex aspernatur dignissimos natus rem officia facilis ut quo similique?</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores aut est nam, ipsum cupiditate voluptatum hic fuga corrupti repellendus officiis molestias placeat eaque quae? Doloremque possimus placeat molestiae distinctio quibusdam?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="areas-atuacao" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Áreas <span class="text-colored">de atuação</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-3">
+                        <nav class="nav nav-pills flex-column nav-atuacao">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#direito-previdenciario"
+                                class="fw-bold text-start nav-link text-colored active">Direito Previdenciário</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#direito-civil"
+                                class="fw-bold text-start nav-link text-colored">Direito Cívil</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#direito-tributario"
+                                class="fw-bold text-start nav-link text-colored">Direito Tributário</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#direito-trabalhista"
+                                class="fw-bold text-start nav-link text-colored">Direito Trabalhista</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-9">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="direito-previdenciario">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./img/atuacao/prev/inss.png" alt="inss" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">INSS</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/atuacao/prev/aposentadoria-especial.jpeg" alt="aposentadoria especial" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Aposentadoria Especial</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/atuacao/prev/aposentadoria-por-idade.jpg" alt="aposentadoria-idade" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Aposentadoria por idade</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/atuacao/prev/aposentadoria-rural.jpg" alt="aposentadoria-rual" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Aposentadoria Rural</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="direito-civil">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./img/atuacao/civil/contrato.jpg" alt="contrato" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Elaboração de contratos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/atuacao/civil/direito-de-familia.jpg" alt="direito de familia" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Direito de Familia</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/atuacao/civil/Inventario.png" alt="inventário" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Inventário</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="direito-tributario">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./img/atuacao/tributario/Direito-tributário.jpg" alt="direito tributário"  class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Revisão tributária</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/atuacao/tributario/nocoes.jpg" alt="direito tributário"  class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Recuperação de créditos tributários</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="direito-trabalhista">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./img/atuacao/trabalhista/trabalhista.jpg" alt="" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Reconhecimento de vinculo trabalhista</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/atuacao/trabalhista/fgts.jpg" alt="fgts" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Revisão do FGTS</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form method="post" class="needs-validation" novalidate>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                                <div class="invalid-feedback">Você deve informar o seu nome</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                                <div class="invalid-feedback">Você deve informar o seu e-mail corretamente</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="tel" class="form-control" >
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                                <div class="invalid-feedback">É necessário uma mensagem</div>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua teste, Exemplo nº 123, bairro Boostrap - São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

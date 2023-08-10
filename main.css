@@ -1,0 +1,64 @@
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.navbar{
+    background-color: #443acb;   
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color:#2d2b2b;
+}
+
+.section-title {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-atuacao .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #6d6868;
+}
+
+.carousel-item {
+    height: 85vh;
+}
+
+.text-colored {
+    color: #443acb;
+}
+
+#areas-atuacao {
+    background-color: #cec9c9;
+}
+
+.nav-atuacao .nav-link.active,
+#fale-conosco button {
+    background-color: #443acb;
+    color: #fff;
+}
+
+.nav-atuacao .nav-link {
+    color: #443acb;
+}
+
+.social-links li{
+    display: inline;
+    list-style: none;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img {
+        height: 280px;
+    }
+}
